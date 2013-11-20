@@ -2,14 +2,15 @@
 
 namespace Adonesp\Omnipay;
 
-use Omnipay\PayPal\ExpressGateway;
+use Omnipay\Omnipay;
 
-require __DIR__.'/../../../vendor/autoload.php';
+// require __DIR__.'/../../../vendor/autoload.php';
 
-class LaravelOmnipay extends ExpressGateway{
+class LaravelOmnipay extends Omnipay{
 
 	public static function greeting()
 	{
 		return "hello";
 	}
+
 }
