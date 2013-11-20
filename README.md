@@ -31,3 +31,5 @@ Once this operation completes, add the service provider. Open app/config/app.php
 ```
 'Adonesp\Omnipay\OmnipayServiceProvider'
 ```
+
+See <a href="https://github.com/omnipay/omnipay">Omnipay</a> source for the complete documentation.
