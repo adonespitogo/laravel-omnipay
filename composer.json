@@ -1,0 +1,23 @@
+{
+    "name": "adonesp/omnipay",
+    "description": "",
+    "authors": [
+        {
+            "name": "Adones Pitogo",
+            "email": "pitogo.adones@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Adonesp\\Omnipay\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
