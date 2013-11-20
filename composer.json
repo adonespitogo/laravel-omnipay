@@ -1,6 +1,6 @@
 {
     "name": "adonesp/omnipay",
-    "description": "",
+    "description": "A Laravel Package of Omnipay",
     "authors": [
         {
             "name": "Adones Pitogo",
