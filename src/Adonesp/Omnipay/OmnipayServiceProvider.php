@@ -1,5 +1,6 @@
 <?php 
 
+
 namespace Adonesp\Omnipay;
 
 use Illuminate\Support\ServiceProvider;
@@ -33,7 +34,7 @@ class OmnipayServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		$this->app->bind('omnipay', function(){
-			return new Omnipay;
+			return new LaravelOmnipay;
 		});
 	}
 
