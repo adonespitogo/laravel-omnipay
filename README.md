@@ -5,7 +5,7 @@ laravel-omnipay
 <qoute>"Omnipay is a payment processing library for PHP. It has been designed based on ideas from Active Merchant, plus experience implementing dozens of gateways for CI Merchant. It has a clear and consistent API, is fully unit tested, and even comes with an example application to get you started."</qoute>
 
 <h2>Installation</h2>
-Begin by installing this package through Composer. Edit your project's composer.json file to require codesleeve/asset-pipeline.
+Begin by installing this package through Composer. Edit your project's composer.json file to require `adonesp/omnipay`.
 
 It might look something like:
 
